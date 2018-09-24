@@ -1,0 +1,12 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <title>index page</title>
+</head>
+<body>
+    <p><a th:href="@{'/check'}">Check Body & Header</a></p>
+    <p><a th:href="@{'/.auth/login/twitter'}">Twitter Login</a></p>
+    <p><a th:href="@{'/.auth/logout'}">Twitter Logoff</a></p>
+</body>
+</html>
